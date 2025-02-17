@@ -1,0 +1,36 @@
+#Python Program Dictionary
+data = {
+"Python" : "a programming language that is widely used in web applications, software development, data science, and machine learning",
+"Programming" : "Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks.",
+"Syntax" : "Syntax is the set of rules that define what the various combinations of symbols mean",
+"Code" : "Code refers to the set of instructions, or a system of rules, written in a particular programming language (i.e., the source code).",
+"Scripts" : "A script is a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor (as a compiled program is).",
+"Function" : "Functions are self contained modules of code that accomplish a specific task.",
+"Variable" : "A variable is a piece of memory that stores a value that can be changed",
+"Loop" : "Loop is a sequence of instruction s that is continually repeated until a certain condition is reached. ",
+"Conditional" : "Statements that allow the execution of different blocks of code based on certain criteria",
+"Module" : "A distinct assembly of components that can be easily added, removed or replaced in a larger system.",
+"Library" : "A collection of pre-written code that you can use to perform specific tasks.",
+"Framework" : "A collection of reusable software components that make it more efficient to develop new applications. ",
+"Debugging" : "The process of finding and fixing errors or bugs in the source code of any software",
+"Algorithm" : "A procedure or formula used for solving a problem",
+"Indention" : "The spaces or tabs at the beginning of a line of code",
+"Interpreter" : "A program that directly executes the instructions in a high-level language, without converting it into machine code.",
+"List" : "Collection of related values or elements that are stored together",
+"Tuple" : "A data structure that is an immutable, or unchangeable, ordered sequence of elements.",
+"Set" : "data structure that stores unique elements of the same type in a sorted order",
+"String" : "data type used in programming, that is used to represent text rather than numbers",
+"Class" : "A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods)",
+"Method" : "A block of code which only runs when it is called.",
+"Inheritance" : "Is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation",
+"Polymorphism" : "The provision of a single interface to entities of different types, or the use of a single symbol to represent multiple different types.",
+"NumPy" : "A library for the Python programming language",
+"Flask" : "A micro web framework written in Python",
+"Django" : "Is a high-level Python web framework that enables rapid development of secure and maintainable websites.",
+"Iterator" : "Is an object (like a pointer) that points to an element inside the container. ",
+"Generator" : "Generator is a routine that can be used to control the iteration behaviour of a loop",
+"Decorator" : "A design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure",
+"Multiprocessing" : "refers to the ability of a system to support more than one processor and/or the ability to allocate tasks between them"
+}
+a = input("Say:")
+print(data[a])
